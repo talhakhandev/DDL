@@ -1,0 +1,21 @@
+[2022-01-27 17:46:58] production.ERROR: Command "vendor:cleanup" is not defined.
+
+Did you mean one of these?
+    activitylog:clean
+    backup:clean
+    currency:cleanup
+    vendor:publish {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"vendor:cleanup\" is not defined.
+
+Did you mean one of these?
+    activitylog:clean
+    backup:clean
+    currency:cleanup
+    vendor:publish at D:\\wamp64\\www\\test\\vendor\\symfony\\console\\Application.php:709)
+[stacktrace]
+#0 D:\\wamp64\\www\\test\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('vendor:cleanup')
+#1 D:\\wamp64\\www\\test\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\wamp64\\www\\test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\wamp64\\www\\test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\wamp64\\www\\test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
